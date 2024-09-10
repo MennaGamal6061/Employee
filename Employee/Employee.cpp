@@ -17,10 +17,10 @@ public:
     void setID(const int& id) {
         this->id = id;
     }
-    void setName(const string& name) {
+    void setName(string name) {
         this->name = name;
     }
-    void setPassword(const string& password) {
+    void setPassword(string password) {
         this->password = password;
     }
     //Getters
